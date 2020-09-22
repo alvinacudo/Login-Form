@@ -1,0 +1,36 @@
+body{
+    background: url(image/bg.jpg);
+    background-size: 100%; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+h3{
+    text-align: center;
+    color: whitesmoke;
+}
+.form-container{
+    margin-top: 100px;
+}
+.form-control{
+    background: transparent;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.form-control::placeholder { 
+    color:  rgb(15, 1, 1);
+}
+.form-control::-webkit-input-placeholder {
+    color: rgb(15, 1, 1);
+  }
+.form-check{
+    margin-top: 20px;
+}
+.btn-success{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 250px;
+    border-radius: 1000px;
+}
+.forget{
+    margin-top: 10px;
+}
